@@ -12,14 +12,14 @@
 
 using namespace std;
 
-struct ExchangeData {
-    string date = " ";
-    float exchange = 0;
+struct ExchangeData { // Structure to represent exchange rate data with a date and exchange value
+    string date = " "; // Date associated with the exchange rate
+    float exchange = 0; // Exchange rate value
 };
 
-struct temp {
-    float exchange;
-    string date = " ";
+struct temp { // Temporary structure to store exchange rate data with a date and modified exchange value
+    float exchange; // Modified exchange rate value
+    string date = " "; // Date associated with the exchange rate
 };
 
 void MaxHeapify(ExchangeData arr[], int N, int i);
